@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(pytest*)",
+      "Bash(ruff check*)",
+      "Bash(ruff format*)",
+      "Bash(npm run*)",
+      "Bash(npx tsc*)",
+      "Bash(npx vitest*)",
+      "Bash(docker compose ps)",
+      "Bash(docker compose logs*)"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Bash(git reset --hard*)",
+      "Bash(drop *)",
+      "Bash(rm -rf*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ \"$CLAUDE_TOOL_OUTPUT_PATH\" == *.py ]]; then ruff check --fix \"$CLAUDE_TOOL_OUTPUT_PATH\" && ruff format \"$CLAUDE_TOOL_OUTPUT_PATH\"; fi"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ \"$CLAUDE_TOOL_OUTPUT_PATH\" == *.ts || \"$CLAUDE_TOOL_OUTPUT_PATH\" == *.tsx ]]; then cd frontend && npx prettier --write \"$CLAUDE_TOOL_OUTPUT_PATH\"; fi"
+          }
+        ]
+      }
+    ]
+  },
+  "env": {
+    "PYTHONPATH": "backend/src"
+  }
+}
