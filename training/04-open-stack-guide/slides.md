@@ -5,10 +5,23 @@ paginate: true
 backgroundColor: #ffffff
 ---
 
-# Open Stack Guide for AI-Native Data Engineering
-## Choosing Tools That Work With Claude, Not Against It
+# "Do I need to rip out my whole stack?"
 
-*Module 04 · CCA-F Training Series*
+*No. Here's what actually needs to change.*
+
+*Module 04 · AI-Native Data Engineering*
+
+---
+
+# The answer most people want
+
+> "I already use Snowflake / Fabric / BigQuery / Postgres. Do I have to change everything?"
+
+No. You don't.
+
+The patterns you learned in Modules 02 and 03 work on your existing stack. What changes is how you **connect** Claude to your systems — and a few tool choices that make the connection smoother.
+
+This module is practical: here's what to keep, what to add, and why.
 
 ---
 

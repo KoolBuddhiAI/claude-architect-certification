@@ -5,18 +5,25 @@ paginate: true
 backgroundColor: #ffffff
 ---
 
-# Workflow Transformation
-## Your Existing DE Work — Mapped to AI-Native
+# Your Job, Upgraded
+## What your actual workflows look like with the right tools
 
-*Module 03 · CCA-F Training Series*
+*Module 03 · AI-Native Data Engineering*
 
 ---
 
-# The Goal of This Module
+# Remember those three answers you wrote down?
 
-Not to replace your workflow.
+In Module 00 you wrote:
+1. The most repetitive thing you do
+2. The work you wish you had time for
+3. The decision only you can make
 
-To show you **exactly where** AI agents and skills slot in to your existing work — and where they don't.
+Pull them out. This module is built around them.
+
+We're not going to talk about abstract workflows. We're going to map **your** work — task by task — to what it looks like with agents in the picture.
+
+This is where it gets personal.
 
 Every common DE task maps to a new pattern. By the end of this module you will see your daily work differently.
 

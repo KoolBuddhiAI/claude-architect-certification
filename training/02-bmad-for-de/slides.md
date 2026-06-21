@@ -5,14 +5,32 @@ paginate: true
 backgroundColor: #ffffff
 ---
 
-# BMAD for Data Engineering
-## Analysis to Production — The Enterprise Way
+# Here's What Goes Wrong When You Skip the Plan
 
-*Module 02 · CCA-F Training Series*
+*And how the BMAD method fixes it*
+
+*Module 02 · AI-Native Data Engineering*
 
 ---
 
-# What Is BMAD?
+# A familiar disaster
+
+Two engineers, same warehouse, working in parallel.
+
+Engineer A builds a `revenue` column in the `orders` table.
+Engineer B builds a `revenue` column in the `order_items` table.
+
+Both are technically correct. Both pass their tests. Both ship.
+
+Three weeks later, Finance notices the numbers don't match.
+
+**Root cause**: two different definitions of "revenue" — and nobody wrote them down before coding started.
+
+AI doesn't fix this problem. At AI speed, it makes it **much worse**.
+
+---
+
+# BMAD is the fix
 
 **Breakthrough Method for Agile AI-Driven Development**
 

@@ -5,19 +5,27 @@ paginate: true
 backgroundColor: #ffffff
 ---
 
-# Enterprise Patterns for AI-Native Data Engineering
-## Governance, Compliance, Audit, and Production Readiness
+# How to Make This Safe Enough to Actually Use
 
-*Module 05 · CCA-F Training Series*
+*The patterns that turn experimental into production-grade*
+
+*Module 05 · AI-Native Data Engineering*
 
 ---
 
-# Why Enterprise Patterns Matter
+# The question your stakeholders will ask
 
-Every pattern in this module exists because something went wrong without it.
+> "That sounds interesting. But how do we know it's reliable enough for production?"
 
-- Data reached production without quality validation → trust crisis
-- Agent-generated code merged without review → compliance failure
+That's the right question. And the answer is not "trust the AI."
+
+The answer is: quality gates, audit trails, reviewed PRs, scoped access, tested agents, and graceful fallbacks. The same discipline that makes any system enterprise-grade — applied to AI-native pipelines.
+
+Every pattern in this module exists because a team tried to skip it.
+
+- No quality gate → data trust crisis when bad data hit production
+- No audit trail → compliance failure under regulatory review
+- No rollback plan → schema change caused a weekend outage
 - Schema change ran without rollback plan → outage
 - PII flowed through an unscoped MCP server → security incident
 

@@ -5,10 +5,23 @@ paginate: true
 backgroundColor: #ffffff
 ---
 
-# The AI Landscape for Data Engineers
-## Agents, Skills, MCP Servers — When to Use What
+# "What even is all of this?"
 
-*Module 01 · CCA-F Training Series*
+*Cutting through the noise on agents, skills, and MCP*
+
+*Module 01 · AI-Native Data Engineering*
+
+---
+
+# You've probably seen the hype
+
+"Agents!" "MCP servers!" "Skills!" "Agentic workflows!"
+
+And thought: *what does any of this actually mean for my job?*
+
+Fair question. Let's make it concrete.
+
+By the end of this module you'll know exactly what each piece is, when to use it, and — more importantly — when **not** to bother.
 
 ---
 

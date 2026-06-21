@@ -6,197 +6,190 @@ backgroundColor: #ffffff
 style: |
   h1 { color: #1a1a2e; }
   h2 { color: #16213e; }
-  strong { color: #e94560; }
-  .highlight { background: #f0f4ff; padding: 12px; border-left: 4px solid #4361ee; }
+  strong { color: #0066cc; }
+  blockquote { border-left: 4px solid #0066cc; padding-left: 16px; color: #444; }
+  .pain { background: #fff3cd; padding: 12px; border-radius: 6px; }
+  .win  { background: #d4edda; padding: 12px; border-radius: 6px; }
 ---
 
-# The AI-Native Data Engineer
-## A Mindset Shift — Not a Tool Update
+# Let's Talk About Your Week
 
-*Module 00 · CCA-F Training Series*
+*Not a lecture. A conversation.*
 
----
-
-# Why This Module Exists
-
-Most AI training for data engineers focuses on **tools**.
-
-This module focuses on **thinking**.
-
-> The engineer who learns a new tool gets incrementally faster.
-> The engineer who changes how they think gets **10× more valuable**.
+*Module 00 · AI-Native Data Engineering*
 
 ---
 
-# The Old Mental Model
+# Quick show of hands
 
-```
-Requirement → Write SQL → Debug SQL → Deploy → Done
-```
+> "How many of you have written **essentially the same ETL script** more than five times in your career?"
 
-You were the **executor**.
+&nbsp;
 
-Your value was measured in:
-- Lines of code shipped
-- Pipelines built
-- Queries optimized
+> "How many have had an analyst ping you for a SQL query while you were in the middle of something actually hard?"
 
----
+&nbsp;
 
-# The New Mental Model
-
-```
-Requirement → Architect → Orchestrate Agents → Review → Govern → Done
-```
-
-You are now the **architect and the reviewer**.
-
-Your value is measured in:
-- Systems designed
-- Outcomes delivered
-- Quality guaranteed
+> "How many have written documentation for a pipeline — **after** it was already in production?"
 
 ---
 
-# What Changed (and What Didn't)
+# That's not a skills gap.
 
-| Still Yours | Now Delegated |
-|---|---|
-| Business context understanding | Boilerplate SQL generation |
-| Data model design | Repetitive transformation code |
-| Quality governance decisions | First-pass pipeline scaffolding |
-| Stakeholder communication | Documentation drafting |
-| Architecture decisions | Unit test generation |
-| **Judgment** | Execution |
+That's just the job as it exists today.
 
-**Judgment cannot be automated. Execution can.**
+You are skilled. You know what you're doing.
 
----
+And yet a big portion of your week is work that **doesn't require what makes you valuable.**
 
-# The Vibe Coding Trap
+&nbsp;
 
-**Vibe coding**: prompt → accept → ship → hope
-
-Works for:
-- Personal projects
-- Prototypes
-- One-time scripts
-
-**Fails for enterprise because:**
-- No audit trail
-- No reproducibility
-- No governance
-- No regression safety
-- No stakeholder confidence
+What if it didn't have to be?
 
 ---
 
-# Enterprise AI Development ≠ Vibe Coding
+# Here's what happened at one team last quarter
 
-Enterprise requires:
+> A data engineer got a request at 9am:
+> *"New Stripe data source, needs to land in the warehouse by EOD, reconciled, documented."*
+>
+> **Old timeline**: 6–8 hours of writing, testing, debugging, documenting.
+>
+> **What actually happened**: She wrote the data contract in 30 minutes, described the schema and quality rules, and orchestrated an agent to build the pipeline. She reviewed and merged at 11am. By 2pm she was working on the actual hard problem — the architecture decision no one else could make.
 
-1. **Documented decisions** — why this schema, why this model
-2. **Reproducible pipelines** — same input = same output, always
-3. **Audit trails** — who changed what, when, why
-4. **Governed access** — least-privilege, role-based
-5. **Tested outputs** — data quality gates, not trust
-
-AI **accelerates** these — it does not replace them.
-
----
-
-# The BMAD Principle
-
-> "Planning is the multiplier."
-
-Before any agent writes a line of code:
-
-1. **Analyze** the problem fully
-2. **Design** the architecture
-3. **Decompose** into agent tasks
-4. **Review** every agent output
-5. **Govern** the deployed system
-
-**The agent is your best developer, not your replacement.**
+This is not science fiction. This is happening now.
 
 ---
 
-# Your New Job Description
+# "But will AI take my job?"
 
-**Before AI**: Write ETL pipelines, maintain SQL, fix broken schedules
+Let's address this directly.
 
-**After AI**: 
+SQL can be generated. Boilerplate can be generated. Documentation can be generated.
 
-- Define **data contracts** agents must respect
-- Design **agent orchestration** for pipeline stages
-- Set **quality gates** that block bad data automatically
-- Own **lineage documentation** the agents produce
-- Make **architecture decisions** that shape what agents build
-- **Review and approve** agent-generated code before production
+**What cannot be generated:**
 
----
+- Knowing that "active customer" means different things to Finance and Marketing in *your company*
+- Deciding that the new data source should be treated as PII
+- Owning the relationship with the stakeholder who's been burned by bad data before
+- Making the call to delay a release because the quality numbers don't look right
 
-# The Trust Hierarchy
-
-```
-Your Business Judgment     ← Never delegate this
-       ↓
-Your Architecture Decisions ← Never delegate this
-       ↓
-Your Quality Gates          ← Define these, agents enforce them
-       ↓
-Agent-Generated Code        ← Review before shipping
-       ↓
-Agent-Generated Tests       ← Verify they cover the right cases
-       ↓
-Agent-Generated Docs        ← Edit, don't write from scratch
-```
+These are judgment calls. They are **irreplaceable**. And right now, they're buried under work that shouldn't require your level of skill.
 
 ---
 
-# A Tale of Two Engineers
+# The actual risk
 
-**Engineer A** (tool mindset):
-> "I use Claude to write SQL faster."
+The risk is not that AI replaces data engineers.
 
-**Engineer B** (architect mindset):
-> "I define data contracts and quality rules, then orchestrate agents to build and validate the full pipeline. I review the architecture and gate on quality metrics."
+> The risk is that data engineers who use AI
+> **replace data engineers who don't.**
 
-**Engineer B** is not just faster. They are doing a **different job** — one that is harder to automate.
-
----
-
-# The Three Questions
-
-Before starting any data engineering task, ask:
-
-1. **What decision needs to be made here that requires my business context?**
-2. **What can an agent do autonomously that I should specify and review instead of write?**
-3. **What quality gate must exist so I can trust the output?**
-
-These questions reshape every task from "I will code this" to "I will architect this."
+You're not here to be replaced. You're here to **get ahead of it.**
 
 ---
 
-# Module 00 — Key Takeaways
+# What's actually changing
 
-- You are an **architect and orchestrator**, not an executor
-- Enterprise AI requires **more discipline**, not less
-- **Vibe coding fails** at enterprise scale — methodology is non-negotiable
-- Your irreplaceable value is **judgment, context, and governance**
-- Every task has three layers: **decide → delegate → verify**
+**Before**: You are the one who writes the pipeline.
 
-**Next: Module 01 — The AI Landscape for Data Engineers**
+**Now**: You are the one who **decides what the pipeline must do** — and you have a very fast executor at your disposal.
+
+&nbsp;
+
+The shift isn't in your value. It's in where you **apply** your value.
+
+Less time writing code that follows known patterns.
+
+More time on the decisions, architecture, and quality standards that actually require you.
 
 ---
 
-# Reflection Exercise
+# A day in the life — today vs 6 months from now
 
-Before moving to Module 01, write answers to:
+| Today | 6 Months From Now |
+|-------|------------------|
+| Write ETL script (3 hrs) | Define data contract, review agent output (45 min) |
+| Debug failed pipeline (2 hrs) | Quality gate caught it in staging — investigate root cause (30 min) |
+| Write analyst SQL (1 hr) | Text-to-SQL agent handles self-serve; you review high-stakes queries |
+| Write pipeline docs (skipped) | Docs auto-generated — you edit 3 lines |
+| **Total execution work: 6+ hrs** | **Total execution work: ~1.5 hrs** |
 
-1. In your current role, what are the 3 most time-consuming tasks?
-2. Which of those require genuine business judgment?
-3. Which are execution that could be delegated to an agent?
-4. What quality gates would you need to trust agent-delegated work?
+What happens with the other 4.5 hours?
 
-*Keep these answers — you'll use them in Module 03 (Workflow Transformation).*
+You do the work that actually moves your career.
+
+---
+
+# This is not "vibe coding"
+
+Let's be clear about what this isn't.
+
+"Vibe coding" = prompt → accept → ship → hope
+
+**That fails in enterprise** because it has no:
+- Audit trail for compliance
+- Quality gates for data trust
+- Reproducibility for production stability
+- Governance for stakeholder confidence
+
+**What we're building is different.**
+
+You design the standards. The agent executes against them. You review before anything ships.
+
+Speed without rigor is just faster mistakes.
+
+---
+
+# The new role in one sentence
+
+> You are the architect and quality owner.
+> The agent is your fastest developer.
+
+The agent doesn't decide what "correct" means. You do.
+
+The agent doesn't decide what quality is acceptable. You do.
+
+The agent doesn't decide whether the data is ready to trust. You do.
+
+**Your judgment is the one thing in this stack that cannot be automated.**
+
+---
+
+# What we'll cover in this training
+
+| Module | What You'll Get |
+|--------|----------------|
+| 01 | The landscape — what agents, skills, and MCP servers actually are |
+| 02 | The methodology — how to plan, architect, and delegate properly (BMAD) |
+| 03 | Your workflow — mapping what you do today to the AI-native version |
+| 04 | The stack — which tools work best, and why |
+| 05 | Enterprise patterns — governance, audit, compliance, production |
+
+&nbsp;
+
+By the end, you'll have a concrete map from where you are today to how you work in 6 months.
+
+---
+
+# Before we go on
+
+Take 5 minutes. Write answers to these:
+
+1. What's the most repetitive thing you do that makes you think "there has to be a better way"?
+2. What's the work you *wish* you had more time for?
+3. What's the one decision in your team that only you can make because of what you know?
+
+Keep these. We'll come back to them in Module 03.
+
+---
+
+# One more thing
+
+The goal of this training is not to turn you into an AI expert.
+
+It is to make sure that six months from now, you are **more valuable** to your organization — not less — because you know how to use these tools with the rigor they require.
+
+You're already good at this job.
+
+Let's make sure you're great at the next version of it.
