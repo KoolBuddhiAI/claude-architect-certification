@@ -16,12 +16,13 @@ Enterprise data engineering with AI requires two things most training misses:
 |--------|-------|--------|----------|
 | 00 | The Mindset Shift | Slides + Guide | 2 hrs |
 | 01 | AI Landscape for Data Engineers | Slides + Guide | 3 hrs |
+| 06 | The Missing Phase: Problem → Requirements → Acceptance Criteria | Slides + Guide + Exercises | 3 hrs |
 | 02 | BMAD for Data Engineering | Slides + Guide + Worksheet | 4 hrs |
 | 03 | Workflow Transformation | Slides + Mapping Guide | 3 hrs |
 | 04 | Open Stack Guide | Slides + TCO Analysis | 2 hrs |
 | 05 | Enterprise Patterns | Slides + Guide | 3 hrs |
 
-**Total**: ~17 hours of structured learning + hands-on labs (scenarios in `../data-engineering/`)
+**Total**: ~20 hours of structured learning + hands-on labs (scenarios in `../`)
 
 ## Learning Path
 
@@ -29,6 +30,8 @@ Enterprise data engineering with AI requires two things most training misses:
 Module 00 (Mindset)
     ↓
 Module 01 (Landscape) ←── Read references/tools-catalog.md alongside
+    ↓
+Module 06 (The Missing Phase) ←── WHY process matters before you learn the process
     ↓
 Module 02 (BMAD Methodology) ←── Core methodology — do not skip
     ↓
@@ -38,7 +41,7 @@ Module 04 (Stack Guide) ←── Choose your tools
     ↓
 Module 05 (Enterprise Patterns) ←── Production readiness
     ↓
-Hands-on Labs: ../data-engineering/ scenarios 01–05
+Hands-on Labs: ../ scenarios 01–05
 ```
 
 ## Slide Deck Format
