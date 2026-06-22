@@ -1,5 +1,7 @@
 # AI-Native Data Engineering — Training Curriculum
 
+> **Start here:** Read [`VISION.md`](VISION.md) before any module. It explains why this training exists, what's changing in the industry, and what success looks like for a data engineer in 2026.
+
 ## Who This Is For
 Data engineers who want to stay relevant and deliver more value in an AI-accelerated world — without abandoning the rigor that enterprise environments demand.
 
