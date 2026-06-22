@@ -9,7 +9,7 @@ backgroundColor: #ffffff
 
 *The patterns that turn experimental into production-grade*
 
-*Module 05 · AI-Native Data Engineering*
+*Module 06 · AI-Native Data Engineering*
 
 ---
 
@@ -314,7 +314,7 @@ Before calling any AI-native pipeline "production-ready":
 
 ---
 
-# Module 05 — Key Takeaways
+# Module 06 — Key Takeaways
 
 - Quality gates are non-negotiable — block on critical, alert on warning
 - Every agent-generated production change needs a PR with human review

@@ -222,4 +222,4 @@ Claude Code (IDE)
 - Platform choice is secondary — the **patterns are the same** across Fabric, ADK, and raw Anthropic API
 - Claude Code is your primary interface — learn it deeply
 
-**Next: Module 02 — BMAD for Data Engineering**
+**Next: Module 02 — The Missing Phase: Requirements & Alignment**

@@ -9,7 +9,7 @@ backgroundColor: #ffffff
 
 *No. Here's what actually needs to change.*
 
-*Module 04 · AI-Native Data Engineering*
+*Module 05 · AI-Native Data Engineering*
 
 ---
 
@@ -201,7 +201,7 @@ Tools that score 5/5 have the lowest AI-native TCO.
 
 ---
 
-# Module 04 — Key Takeaways
+# Module 05 — Key Takeaways
 
 - Platform choice matters less than MCP + skill availability
 - dbt + Dagster + GitHub Actions is the most agent-compatible open stack
@@ -209,4 +209,4 @@ Tools that score 5/5 have the lowest AI-native TCO.
 - TCO calculation must include agent-accelerated throughput savings
 - Every tool decision: ask "does this have an MCP server and skill?"
 
-**Next: Module 05 — Enterprise Patterns**
+**Next: Module 06 — Enterprise Patterns**

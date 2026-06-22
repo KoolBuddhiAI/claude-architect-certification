@@ -1,4 +1,4 @@
-# Module 06: Exercises — From Problem to Acceptance Criteria
+# Module 02: Exercises — From Problem to Acceptance Criteria
 
 ## Exercise 1: Decompose a Vague Request
 

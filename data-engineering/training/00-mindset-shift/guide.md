@@ -95,7 +95,7 @@ The three questions from the session exercise:
 - Work you wish you had time for (this is where you'll spend the reclaimed time)
 - Decision only you can make (this is your irreplaceable value)
 
-Take these seriously. They are the foundation of your Module 03 workflow map.
+Take these seriously. They are the foundation of your Module 04 workflow map.
 
 ---
 

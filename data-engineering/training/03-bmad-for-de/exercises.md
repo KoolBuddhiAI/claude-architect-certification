@@ -1,4 +1,4 @@
-# Module 02: Hands-On Exercises
+# Module 03: Hands-On Exercises
 
 ## Exercise 1 — Quick (20 min): Write a Data Contract
 

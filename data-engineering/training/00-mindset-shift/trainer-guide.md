@@ -113,23 +113,23 @@ This is important for enterprise contexts. There will be skeptics in the room wh
 
 ### "My stack is too specific for any of this to work"
 
-**Response**: "Let's make that concrete in Module 03. Bring the specific workflow you're thinking of and we'll map it. Most resistance to this dissolves when you see the actual tool for your actual stack."
+**Response**: "Let's make that concrete in Module 04. Bring the specific workflow you're thinking of and we'll map it. Most resistance to this dissolves when you see the actual tool for your actual stack."
 
 ### "This seems like it would take longer to set up than just doing it"
 
-**Response**: "For a one-time script, yes. For anything you do more than twice, no. And the BMAD approach in Module 02 is specifically designed to make the planning phase fast — usually 30–60 minutes before the agent starts executing."
+**Response**: "For a one-time script, yes. For anything you do more than twice, no. And the BMAD approach in Module 03 is specifically designed to make the planning phase fast — usually 30–60 minutes before the agent starts executing."
 
 ### "What if the agent makes a mistake I don't catch?"
 
-**Response**: "Same question applies to a junior developer. The answer is the same: quality gates, code review, staging environments, rollback plans. We cover all of that in Module 05. The agent doesn't change your quality process — it just changes who writes the first draft."
+**Response**: "Same question applies to a junior developer. The answer is the same: quality gates, code review, staging environments, rollback plans. We cover all of that in Module 06. The agent doesn't change your quality process — it just changes who writes the first draft."
 
 ---
 
 ## The 5-Minute Reflection Exercise (Slide 14)
 
-**Do not skip this.** It's not a nice-to-have — it's the bridge to Module 03.
+**Do not skip this.** It's not a nice-to-have — it's the bridge to Module 04.
 
-The exercise anchors the abstract ideas to each person's actual job. When they come back to Module 03 with their specific answers, the workflow mapping becomes personal and concrete.
+The exercise anchors the abstract ideas to each person's actual job. When they come back to Module 04 with their specific answers, the workflow mapping becomes personal and concrete.
 
 Give them genuinely 5 minutes of silence. Resist the urge to fill the space.
 
@@ -161,6 +161,6 @@ If you're seeing those signals, proceed. If the room is still skeptical and defe
 
 End not with "any questions?" but with:
 
-> "Keep those three answers from the reflection. When we get to Module 03, I'm going to ask you to pull them out. What we do there is take your actual current workflow and map it to what it looks like with the right tools. That's where this stops being abstract."
+> "Keep those three answers from the reflection. When we get to Module 04, I'm going to ask you to pull them out. What we do there is take your actual current workflow and map it to what it looks like with the right tools. That's where this stops being abstract."
 
 That creates anticipation for the next module instead of closure on this one.

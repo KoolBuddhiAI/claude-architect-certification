@@ -180,7 +180,7 @@ Take 5 minutes. Write answers to these:
 2. What's the work you *wish* you had more time for?
 3. What's the one decision in your team that only you can make because of what you know?
 
-Keep these. We'll come back to them in Module 03.
+Keep these. We'll come back to them in Module 04.
 
 ---
 

@@ -1,4 +1,4 @@
-# Module 04: Open Stack Guide — Reading Guide
+# Module 05: Open Stack Guide — Reading Guide
 
 ## The Question That Actually Matters
 

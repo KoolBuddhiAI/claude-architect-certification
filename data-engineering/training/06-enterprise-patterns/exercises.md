@@ -1,10 +1,10 @@
-# Module 05: Hands-On Exercises
+# Module 06: Hands-On Exercises
 
 ## Exercise 1 — Quick (20 min): Define Your Quality Gates
 
 **Goal:** Translate the quality gate pattern into concrete thresholds for a real pipeline.
 
-Choose one of your existing pipelines (or the one from Module 02's BMAD exercise).
+Choose one of your existing pipelines (or the one from Module 03's BMAD exercise).
 
 Define the quality contract:
 
@@ -74,7 +74,7 @@ Run each scenario and answer these questions:
 
 ## Exercise 3 — Deep (90 min): Build the Enterprise Safety Layer for Your Pipeline
 
-**Goal:** Take the pipeline from Module 02's BMAD exercise and add the full enterprise safety layer.
+**Goal:** Take the pipeline from Module 03's BMAD exercise and add the full enterprise safety layer.
 
 **Part 1 — Quality gate implementation (30 min)**
 
@@ -105,7 +105,7 @@ Verify you can query the audit log and see: run_id, quality score, whether it wa
 
 **Part 3 — Idempotency test (10 min)**
 
-For the pipeline from Module 02's BMAD exercise:
+For the pipeline from Module 03's BMAD exercise:
 - Run the ETL agent from Scenario 01 twice with the same input data
 - Check the row count after each run — are there duplicates?
 - If yes: identify exactly where the non-idempotent operation is and describe the fix

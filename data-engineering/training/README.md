@@ -16,30 +16,30 @@ Enterprise data engineering with AI requires two things most training misses:
 |--------|-------|--------|----------|
 | 00 | The Mindset Shift | Slides + Guide | 2 hrs |
 | 01 | AI Landscape for Data Engineers | Slides + Guide | 3 hrs |
-| 06 | The Missing Phase: Problem → Requirements → Acceptance Criteria | Slides + Guide + Exercises | 3 hrs |
-| 02 | BMAD for Data Engineering | Slides + Guide + Worksheet | 4 hrs |
-| 03 | Workflow Transformation | Slides + Mapping Guide | 3 hrs |
-| 04 | Open Stack Guide | Slides + TCO Analysis | 2 hrs |
-| 05 | Enterprise Patterns | Slides + Guide | 3 hrs |
+| 02 | The Missing Phase: Problem → Requirements → Acceptance Criteria | Slides + Guide + Exercises | 3 hrs |
+| 03 | BMAD for Data Engineering | Slides + Guide + Worksheet | 4 hrs |
+| 04 | Workflow Transformation | Slides + Mapping Guide | 3 hrs |
+| 05 | Open Stack Guide | Slides + TCO Analysis | 2 hrs |
+| 06 | Enterprise Patterns | Slides + Guide | 3 hrs |
 
 **Total**: ~20 hours of structured learning + hands-on labs (scenarios in `../`)
 
 ## Learning Path
 
 ```
-Module 00 (Mindset)
+Module 00 (Mindset) — you are now an architect, not just a coder
     ↓
-Module 01 (Landscape) ←── Read references/tools-catalog.md alongside
+Module 01 (Landscape) — the tools at your disposal
     ↓
-Module 06 (The Missing Phase) ←── WHY process matters before you learn the process
+Module 02 (The Missing Phase) — WHY process exists: the failure mode AI makes faster
     ↓
-Module 02 (BMAD Methodology) ←── Core methodology — do not skip
+Module 03 (BMAD Methodology) — HOW to run the process: ANALYZE → ARCHITECT → DECOMPOSE → IMPLEMENT
     ↓
-Module 03 (Workflow Mapping) ←── Apply to your current role
+Module 04 (Workflow Mapping) — apply to your actual current workflows
     ↓
-Module 04 (Stack Guide) ←── Choose your tools
+Module 05 (Stack Guide) — choose and connect your tools
     ↓
-Module 05 (Enterprise Patterns) ←── Production readiness
+Module 06 (Enterprise Patterns) — production readiness: quality gates, audit, security
     ↓
 Hands-on Labs: ../ scenarios 01–05
 ```

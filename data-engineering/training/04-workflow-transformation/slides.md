@@ -8,7 +8,7 @@ backgroundColor: #ffffff
 # Your Job, Upgraded
 ## What your actual workflows look like with the right tools
 
-*Module 03 · AI-Native Data Engineering*
+*Module 04 · AI-Native Data Engineering*
 
 ---
 
@@ -262,7 +262,7 @@ Complete this for your top 5 tasks from the Module 00 reflection exercise.
 
 ---
 
-# Module 03 — Key Takeaways
+# Module 04 — Key Takeaways
 
 - Every major DE workflow has a clear AI-native mapping
 - The pattern is always: **you design + review, agents execute**
@@ -271,4 +271,4 @@ Complete this for your top 5 tasks from the Module 00 reflection exercise.
 - Text-to-SQL is self-serve for exploration; human review for reporting
 - Documentation shifts from writing to reviewing
 
-**Next: Module 04 — Open Stack Guide**
+**Next: Module 05 — Open Stack Guide**

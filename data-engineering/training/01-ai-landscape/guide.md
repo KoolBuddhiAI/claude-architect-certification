@@ -39,7 +39,7 @@ Skills are light (30–50 tokens each, loaded on demand). They don't connect to 
 
 **Data engineering skills worth knowing:**
 
-- **BMAD skills** — planning methodology (Module 02 covers this deeply)
+- **BMAD skills** — planning methodology (Module 03 covers this deeply)
 - **Data contract skill** — how to define a contract in your team's format
 - **dbt model skill** — how to scaffold a dbt model following your conventions
 - **Quality gate skill** — your standard DQ check definitions
@@ -126,4 +126,4 @@ You should be able to answer:
 - [ ] What security consideration applies to every MCP server?
 - [ ] What's the correct platform choice for your current stack?
 
-**Coming up in Module 02:** Now that you know the building blocks, we'll cover how to plan a data engineering project using them properly — before any agent writes a line of code.
+**Coming up in Module 03:** Now that you know the building blocks, we'll cover how to plan a data engineering project using them properly — before any agent writes a line of code.

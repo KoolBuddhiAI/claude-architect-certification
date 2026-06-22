@@ -1,8 +1,27 @@
-# Module 02: BMAD for Data Engineering — Reading Guide
+# Module 03: BMAD for Data Engineering — Reading Guide
+
+## From the Problem to the Process
+
+In Module 02 you saw the failure mode: engineers jump from request to code, skipping problem definition, requirements, product owner alignment, and acceptance criteria. With AI, that failure arrives in days instead of weeks.
+
+BMAD is the structured answer to that problem. It does not add bureaucracy — it gives you the minimum discipline needed to build the right thing at AI speed.
+
+The four phases map directly to what Module 02 identified as missing:
+
+| What gets skipped (Module 02) | BMAD phase that enforces it |
+|---|---|
+| Problem definition | ANALYZE — business question first |
+| Functional requirements | ANALYZE — what does it produce? |
+| Non-functional requirements | ARCHITECT — quality contract, SLAs |
+| Product owner alignment | ANALYZE — stakeholder requirements |
+| Acceptance criteria | ARCHITECT — quality gates = acceptance criteria |
+| Show output and iterate | IMPLEMENT — prototype → review → refine |
+
+---
 
 ## Why Methodology Matters More When You're Fast
 
-Here's the counterintuitive truth about AI-accelerated development: the faster you can execute, the more important it is to plan well.
+The faster you can execute, the more important it is to plan well.
 
 A human writing a pipeline makes thousands of small decisions as they code — "should this column be nullable?", "what happens if this join produces duplicate rows?" — and those micro-decisions embed judgment into the code.
 
@@ -121,4 +140,4 @@ Key commands for data engineers:
 - [ ] What's the six-item review checklist for agent-generated pipeline code?
 - [ ] What BMAD command would you use to start planning a new data product?
 
-**Coming up in Module 03:** We take the BMAD methodology and apply it to your specific workflows — ETL, DQ, Power BI, schema changes, and the SQL requests that fill your inbox.
+**Coming up in Module 04:** We take the BMAD methodology and apply it to your specific workflows — ETL, DQ, Power BI, schema changes, and the SQL requests that fill your inbox.

@@ -1,4 +1,4 @@
-# Module 05: Enterprise Patterns — Reading Guide
+# Module 06: Enterprise Patterns — Reading Guide
 
 ## The Shift in Who's Responsible
 

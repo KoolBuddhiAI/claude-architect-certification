@@ -1,4 +1,4 @@
-# Module 03: Workflow Transformation — Reading Guide
+# Module 04: Workflow Transformation — Reading Guide
 
 ## The Point of This Module
 

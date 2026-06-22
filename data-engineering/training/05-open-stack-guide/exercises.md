@@ -1,4 +1,4 @@
-# Module 04: Hands-On Exercises
+# Module 05: Hands-On Exercises
 
 ## Exercise 1 — Quick (20 min): Tool Audit
 
@@ -43,7 +43,7 @@ Use `references/tools-catalog.md` to check MCP availability.
 
 **Goal:** Build the business case for your workflow transformation.
 
-Choose the workflow you mapped in Module 03 Exercise 3.
+Choose the workflow you mapped in Module 04 Exercise 3.
 
 **Part 1 — Baseline measurement (20 min)**
 

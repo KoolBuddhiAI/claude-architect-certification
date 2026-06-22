@@ -9,7 +9,7 @@ backgroundColor: #ffffff
 
 *And how the BMAD method fixes it*
 
-*Module 02 · AI-Native Data Engineering*
+*Module 03 · AI-Native Data Engineering*
 
 ---
 
@@ -315,7 +315,7 @@ Before merging any agent-generated pipeline:
 
 ---
 
-# Module 02 — Key Takeaways
+# Module 03 — Key Takeaways
 
 - **BMAD = Plan → Architect → Decompose → Implement → Govern**
 - **Lineage mapping before coding** prevents semantic conflicts in multi-agent pipelines
@@ -323,7 +323,7 @@ Before merging any agent-generated pipeline:
 - **Disjoint story scoping** enables safe parallelization
 - **Review checklists** replace trust in agent output
 
-**Next: Module 03 — Workflow Transformation Maps**
+**Next: Module 04 — Workflow Transformation Maps**
 
 ---
 

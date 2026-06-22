@@ -1,4 +1,4 @@
-# Module 03: Hands-On Exercises
+# Module 04: Hands-On Exercises
 
 ## Exercise 1 — Quick (20 min): Your Workflow Transformation Map
 
@@ -131,4 +131,4 @@ Write a 200-word description of this change aimed at your team lead or manager. 
 4. The time saving estimate (one sentence)
 5. What you'd need to get started (one sentence)
 
-This is the real output of Module 03 — a concrete, defensible proposal for one workflow transformation.
+This is the real output of Module 04 — a concrete, defensible proposal for one workflow transformation.

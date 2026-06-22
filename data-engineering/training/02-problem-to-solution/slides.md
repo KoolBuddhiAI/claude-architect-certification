@@ -7,7 +7,7 @@ paginate: true
 # The Missing Phase
 ## Why Engineers Build the Wrong Thing — Fast
 
-**Module 06 — Claude Architect Certification: Data Engineering Track**
+**Module 02 — Claude Architect Certification: Data Engineering Track**
 
 ---
 
@@ -190,7 +190,7 @@ Process protects trust. AI speed is only valuable when trust is intact.
 - [ ] Identify the product owner — have you ever aligned with them on what "done" means?
 - [ ] In your next build, show output at Day 1 before continuing
 
-**Next:** Module 02 — BMAD gives you the specific mechanics for each of these steps.
+**Next:** Module 03 — BMAD gives you the specific mechanics for each of these steps.
 
 ---
 

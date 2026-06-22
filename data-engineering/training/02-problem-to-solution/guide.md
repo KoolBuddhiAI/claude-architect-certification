@@ -1,4 +1,4 @@
-# Module 06: The Missing Phase — Reading Guide
+# Module 02: The Missing Phase — Reading Guide
 
 ## The Problem No One Talks About
 
@@ -110,7 +110,7 @@ Each checkpoint catches misalignment before it compounds. A product owner who se
 
 ## How This Connects to BMAD
 
-The BMAD methodology you will learn in Module 02 is the structured implementation of everything in this module:
+The BMAD methodology you will learn in Module 03 is the structured implementation of everything in this module:
 
 - The ANALYZE phase is where you capture problem definition, functional requirements, and product owner objectives
 - The ARCHITECT phase is where you formalise non-functional requirements, data contracts, and quality gates (which are your acceptance criteria)
@@ -141,4 +141,4 @@ AI speed is only valuable when the output is trusted. Trust is only maintained w
 - [ ] Identify the product owner. Have you ever had a requirements conversation with them? If not, schedule 30 minutes.
 - [ ] In your next build, share a Day 1 prototype before doing further work.
 
-**Coming up in Module 02:** BMAD gives you the specific tools — prompts, commands, and templates — to run each of these steps efficiently with Claude Code.
+**Coming up in Module 03:** BMAD gives you the specific tools — prompts, commands, and templates — to run each of these steps efficiently with Claude Code.
