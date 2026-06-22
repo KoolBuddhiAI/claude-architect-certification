@@ -1,10 +1,11 @@
 import anthropic
 import json
+import os
 import subprocess
 from pathlib import Path
 
 client = anthropic.Anthropic()
-MODEL = "claude-sonnet-4-6"
+MODEL = os.environ.get("MODEL", "claude-sonnet-4-6")
 
 SANDBOX = Path("/tmp/dev-productivity-sandbox")
 SANDBOX.mkdir(exist_ok=True)

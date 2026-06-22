@@ -1,9 +1,10 @@
 import anthropic
 import json
+import os
 from typing import Any
 
 client = anthropic.Anthropic()
-MODEL = "claude-sonnet-4-6"
+MODEL = os.environ.get("MODEL", "claude-sonnet-4-6")
 
 ORDERS = {
     "ORD-001": {"status": "shipped", "item": "Laptop", "delivery": "2026-06-22"},

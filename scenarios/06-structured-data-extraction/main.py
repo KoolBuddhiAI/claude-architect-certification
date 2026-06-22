@@ -1,8 +1,9 @@
 import anthropic
 import json
+import os
 
 client = anthropic.Anthropic()
-MODEL = "claude-sonnet-4-6"
+MODEL = os.environ.get("MODEL", "claude-sonnet-4-6")
 
 SYSTEM_PROMPT = (
     "You are a data extraction specialist. Extract structured information from unstructured text.\n\n"

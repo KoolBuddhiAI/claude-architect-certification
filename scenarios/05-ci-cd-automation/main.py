@@ -1,9 +1,10 @@
 import anthropic
 import json
+import os
 import sys
 
 client = anthropic.Anthropic()
-MODEL = "claude-sonnet-4-6"
+MODEL = os.environ.get("MODEL", "claude-sonnet-4-6")
 
 REVIEW_TOOL = {
     "name": "submit_review",
